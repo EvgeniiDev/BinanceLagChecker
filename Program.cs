@@ -2,6 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
+Console.WriteLine("Starting");
 var pairs = new List<string> {"ethusdt", "btcusdt", "xrpusdt"};
 
 var uri = new Uri($"wss://stream.binance.com:443/stream?" +
